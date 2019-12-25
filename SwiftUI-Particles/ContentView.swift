@@ -43,6 +43,13 @@ struct ContentView: View {
                       name: "Snow",
                       backgroundColor: .black),
         
+        EmitterConfig(emitter: Emitters.starField,
+                      size: CGSize(width: 1, height: 1),
+                      shape: .rectangle,
+                      position: CGPoint(x: Constants.width / 2, y: Constants.height / 2),
+                      name: "Star Field",
+                      backgroundColor: .black),
+        
         EmitterConfig(emitter: Emitters.fire,
                       size: CGSize(width: Constants.width / 8, height: 1),
                       shape: .line,
@@ -163,6 +170,20 @@ struct Emitters {
             .velocityRange(50)
             .yAcceleration(200.0)
             .emissionLongitude(.pi)
+    }
+    
+    static let starField = ParticlesEmitter {
+        EmitterCell()
+            .content(.circle(16.0))
+            .color(UIColor.white.withAlphaComponent(0.0))
+            .lifetime(10)
+            .birthRate(40)
+            .scale(0.01)
+            .scaleRange(0.004)
+            .scaleSpeed(0.005)
+            .alphaSpeed(0.3)
+            .velocity(100)
+            .emissionRange(-.pi)
     }
     
     static var fire: ParticlesEmitter  {
