@@ -4,7 +4,7 @@ Playing with particles with SwiftUI ✨
 
 ## Screenshot/Preview
 
-<img src="screenshot01.gif" width="240px" /> <img src="screenshot02.gif" width="240px" />
+<img src="screenshot01.gif" width="240px" /> <img src="screenshot02.gif" width="240px" /> <img src="screenshot03.gif" width="240px" />
 
 
 ## How to use
