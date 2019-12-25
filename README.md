@@ -9,7 +9,7 @@ Playing with particles with SwiftUI ✨
 
 ## How to use
 
-Just use the the `ParticlesEmitter` class in your project as followed:
+Just use the the `ParticlesEmitter` class in your project as follow:
 
 ```swift
 struct ContentView: View {
@@ -30,6 +30,7 @@ struct ContentView: View {
 }
 ```
 
+You can check out the example class in the project `ContentView.swift` for some emitter samples.
 
 ## References
 Useful resources that I used for this small project:
