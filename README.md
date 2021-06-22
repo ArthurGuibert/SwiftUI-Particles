@@ -6,10 +6,15 @@ Playing with particles with SwiftUI ✨
 
 <img src="screenshot01.gif" width="240px" /> <img src="screenshot02.gif" width="240px" /> <img src="screenshot03.gif" width="240px" />
 
+## Installation via Swift Package Manager
+1. In your Xcode project, navigate to File → Swift Packages → Add Package Dependency...
+2. Copy and paste `https://github.com/ArthurGuibert/SwiftUI-Particles` into the search bar and click Next.
+3. For Rules, select "Branch" and set it to **master**.
+4. Click Finish.
 
 ## How to use
 
-Just use the the `ParticlesEmitter` class in your project as follow:
+Just use  the `ParticlesEmitter` class in your project as follow:
 
 ```swift
 struct ContentView: View {
